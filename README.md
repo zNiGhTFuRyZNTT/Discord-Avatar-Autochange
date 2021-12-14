@@ -21,7 +21,7 @@ A simple script that automatically keeps changing your discord avatar after a gi
 
   - ``` pip install -r requirements.txt ```
 
-- then Pase All of the pictures you want in images directory and then run:
+- then Pase All of the pictures you want in `images` directory and then run:
 
   - ``` python3 main.py ```
 
