@@ -6,7 +6,7 @@ import time
 import json
 import os
 
-TIMEOUT = os.getenv('TIMEOUT') if len(os.getenv('TOKEN')) > 0 else 300
+TIMEOUT = int(os.getenv('TIMEOUT')) if len(os.getenv('TOKEN')) > 0 else 300
 TOKEN = os.getenv('TOKEN') if len(os.getenv('TOKEN')) > 0 else False
 
 
