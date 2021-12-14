@@ -6,7 +6,7 @@ import time
 import json
 import os
 
-SEC_BETWEEN_EACH_ = 300
+TIMEOUT = os.getenv('TIMEOUT') if len(os.getenv('TOKEN')) > 0 else 300
 TOKEN = os.getenv('TOKEN') if len(os.getenv('TOKEN')) > 0 else False
 
 
@@ -26,7 +26,7 @@ def main():
         chAvatar(images[counter], TOKEN)
         print(f"Changed to -> {images[counter]} - {counter}")
         counter = 0 
-        time.sleep(SEC_BETWEEN_EACH_)
+        time.sleep(TIMEOUT)
 
         continue
 
@@ -35,7 +35,7 @@ def main():
         chAvatar(images[counter], TOKEN)
         print(cc.OKGREEN + f"Changed to ->" + cc.ENDC+ cc.OKBLUE + f" '{images[counter]}' - number = {counter}" + cc.ENDC )
         counter += 1
-        time.sleep(SEC_BETWEEN_EACH_)
+        time.sleep(TIMEOUT)
 
 
     except Exception as e:
@@ -51,7 +51,7 @@ if __name__ == "__main__":
   if not TOKEN:
     print(cc.WARNING + "[!] " + cc.ENDC + cc.FAIL +"You must provide a discord token in .env" + cc.ENDC)
     quit()
-  elif SEC_BETWEEN_EACH_< 300:
+  elif TIMEOUT< 300:
     print(cc.WARNING + "[!] " + cc.ENDC + cc.FAIL +"Timeout must be more than 5mins = 300secs" + cc.ENDC)
     quit()
   # -----------------
