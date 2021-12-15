@@ -33,16 +33,24 @@ now to test the program run:
 ---
 
 ### To Deploy
+
+
 - Do all steps as mentioned before but do not run main file, After installing the requirements and setting TOKEN and TIMEOUT, Follow stebs below:
+
+
   - Edit `tools/win/DiscordAvatarStartUp.bat` and uncomment two lines which start with `cd` and `py` then replace the required paths. 
   <br> to uncomment remove `@rem`
 
 
   <br>
+  
   - Now go to tools/win then run `addToStartup.bat` this will add `DiscordAvatarStartUp.bat` to the startup so the program will always launch on windows start up.
+  
   <br>
   <br>
+  
   - To Stop the program run `terminateDis.bat` in the projects root directory, or to make it simple you can make a shortcut or add it to taskbar.
+  
   <br>
   <br>
   - Now that our launcher bat file is in startup you can either run 'DiscordAvatarStartUp.bat` once manually or restart your pc.
