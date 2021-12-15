@@ -18,7 +18,7 @@
 
 <br>
 
-### <p style="text-align: center;font-family:Times New Roman  "> from 🥒 import Verify_working </p>
+### <p align="center" style="font-family:Times New Roman  "> from 🥒 import Verify_working </p>
 
 - ``` pip install -r requirements.txt ```
 <br>
@@ -36,7 +36,7 @@ now to test the program run:
 
 ---
 
-### <p style="text-align: center;font-family:Times New Roman  "> from 🍑 import Deploy </p>
+### <p align="center" style=";font-family:Times New Roman"> from 🍑 import Deploy </p>
 
 
 - Do all steps as mentioned before but do not run main file, After installing the requirements and setting TOKEN and TIMEOUT, Follow stebs below:
@@ -65,4 +65,4 @@ now to test the program run:
 
 ---
 
-### <p style="text-align: center;"> Do not HeZiTaTe to open issues if there was a problem! <br>❤️❤️❤️ </p>
+### <p align="center"> Do not HeZiTaTe to open issues if there was a problem! <br>❤️❤️❤️ </p>
