@@ -1,5 +1,5 @@
 <p align="center">
-<img src="NEMESIS_TEAM_LOGO.jpg" alt="NEMESIS TEAM LOGO" style="border-radius:5px"/>
+<img src="https://cdn.discordapp.com/attachments/820259991955963945/920580334368731136/NEMESIS_TEAM_LOGO.jpg" alt="NEMESIS TEAM LOGO" style="border-radius:5px"/>
 </p>
 
 # Discord-Avatar-Autochange
