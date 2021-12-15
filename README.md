@@ -24,7 +24,10 @@ A simple script that automatically keeps changing your discord avatar after a gi
 now to Set TOKEN and TIMEOUT in .env which Timeout is the time between each avatar change in <b style="color:green;">SECONDS</b>.
 <br>
 now to test the program run:
-- ``` py main.py ```
+
+-  ``` py main.py ```
+
+
 <br>
 
 ---
