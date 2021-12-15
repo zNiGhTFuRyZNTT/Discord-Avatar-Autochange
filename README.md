@@ -53,6 +53,7 @@ now to test the program run:
   
   <br>
   <br>
+  
   - Now that our launcher bat file is in startup you can either run 'DiscordAvatarStartUp.bat` once manually or restart your pc.
 
 ## NOTES
