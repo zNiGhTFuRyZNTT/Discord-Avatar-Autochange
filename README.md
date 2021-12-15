@@ -65,4 +65,4 @@ now to test the program run:
 
 ---
 
-### <p align="center"> Do not HeZiTaTe to open issues if there was a problem! <br>❤️❤️❤️ </p>
+### <p align="center"> Do not HeZiTaTe to open issues if there was any problem! <br>❤️❤️❤️ </p>
