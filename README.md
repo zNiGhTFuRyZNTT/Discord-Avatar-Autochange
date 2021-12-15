@@ -35,7 +35,7 @@ now to test the program run:
   <br> to uncomment remove `@rem`
   <br>
   <br>
-  - Now go to tools/win then run ``` addToStartup.bat ``` this will add 'DiscordAvatarStartUp.bat` to the startup so the program will always launch on windows start up.
+  - Now go to tools/win then run `addToStartup.bat` this will add `DiscordAvatarStartUp.bat` to the startup so the program will always launch on windows start up.
   <br>
   <br>
   - To Stop the program run `terminateDis.bat` in the projects root directory, or to make it simple you can make a shortcut or add it to taskbar.
