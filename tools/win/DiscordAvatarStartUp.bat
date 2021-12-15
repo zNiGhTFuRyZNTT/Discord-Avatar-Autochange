@@ -1,5 +1,4 @@
 @echo off
-@timeout /t 30
 
 @rem F:
 @rem cd path_to_project_root_directory
