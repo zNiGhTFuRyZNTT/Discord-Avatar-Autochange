@@ -4,24 +4,28 @@
 
 # Discord-Avatar-Autochange
 
-## Introduction
-A simple script that automatically keeps changing your discord avatar after a given amount of time based on the pictures you provide in a directory.
+<br>
 
+## 📜 DESCRIPTION
+ - A simple script that automatically keeps changing your discord avatar after a given amount of time based on the pictures you provide in a directory.
 
-## DESCRIPTION
  - Since this scripts requires your Discord token DO NOT RUN THIS SCRIPT ON A PUBLIC SERVER like Replit etc.
 
+
+
 ---
-## How to use
+## ❓ How to use
 
 <br>
 
-### To test
+### <p style="text-align: center;font-family:Times New Roman  "> from 🥒 import Verify_working </p>
 
 - ``` pip install -r requirements.txt ```
 <br>
 <br>
 now to Set TOKEN and TIMEOUT in .env which Timeout is the time between each avatar change in <b style="color:green;">SECONDS</b>.
+
+  PASTE AT LEAST 2 PICTURES IN ` images ` directory.
 <br>
 now to test the program run:
 
@@ -32,7 +36,7 @@ now to test the program run:
 
 ---
 
-### To Deploy
+### <p style="text-align: center;font-family:Times New Roman  "> from 🍑 import Deploy </p>
 
 
 - Do all steps as mentioned before but do not run main file, After installing the requirements and setting TOKEN and TIMEOUT, Follow stebs below:
@@ -56,11 +60,9 @@ now to test the program run:
   
   - Now that our launcher bat file is in startup you can either run `DiscordAvatarStartUp.bat` once manually or restart your pc.
 
-## NOTES
+## 💌 NOTES
 - Any Recommendation will be appreciated, don't forget `Pull requests` if you have any idea to improve this project . 👙🤺
 
+---
 
-### Do not HeZiTaTe to open issues if there was a problem!
-<p align="center">
-❤️❤️❤️
-</p>
+### <p style="text-align: center;"> Do not HeZiTaTe to open issues if there was a problem! <br>❤️❤️❤️ </p>
