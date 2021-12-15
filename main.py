@@ -55,9 +55,17 @@ if __name__ == "__main__":
     print(cc.WARNING + "[!] " + cc.ENDC + cc.FAIL +"Timeout must be more than 5mins = 300secs" + cc.ENDC)
     quit()
   # -----------------
+  if len(images) < 1:
+    print(cc.WARNING + "[!] " + cc.ENDC + cc.FAIL +"You Provide at least 2 pictures in 'images' directory" + cc.ENDC)
+    quit()
 
   time.sleep(1)
   print("[>] Started !")
   print(cc.OKGREEN + f"All images -> "+ cc.ENDC+ cc.OKBLUE  + f"{images} count --> {len(images)}" + cc.ENDC)
   # ------------------
+  # create a file and write the process id into it so we can terminate later.
+  with open('pid.txt', 'w') as pidf:
+    pidf.write(str(os.getpid()))
+  pidf.close()
+  # ----------------
   main() #
