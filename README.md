@@ -34,28 +34,25 @@ now to test the program run:
 
 <br>
 
----
+
 
 ### <p align="center" style=";font-family:Times New Roman"> from 🍑 import Deploy </p>
 
+- <p style="color:green;">DO NOT FORGET TO SET TOKEN AND TIME OUT IN `.env`<p>
+- Put some images in `images` directory.
+- right click on `Launcher.exe` and create a shortcut.
+- paste the shortcut in your start up directory => <br> `C:/Users/yourusername/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/`
+- run Launcher.exe
 
-- Do all steps as mentioned before but do not run main file, After installing the requirements and setting TOKEN and TIMEOUT, Follow stebs below:
+> to verify if it's working check your avatar after running `Launcher.exe` to see if it has changed.
 
+---
 
-  - Edit `tools/win/DiscordAvatarStartUp.bat` and uncomment two lines which start with `cd` and `py` then replace the required paths. 
-  <br> to uncomment remove `@rem`
+## ❓ How to stop
+### ❗Assuming you already added the Launcher.exe shortcut to the startup.
+- run `instantPause.bat` to instantly pause the app until restart.
+- or run `uninstall.exe` to choose whether to remove the app from startup or just pause the app.
 
-
-  
-  - Now go to tools/win then run `addToStartup.bat` this will add `DiscordAvatarStartUp.bat` to the startup so the program will always launch on windows start up.
-
-  <br>
-  
-  - To Stop the program run `terminateDis.bat` in the projects root directory, or to make it simple you can make a shortcut or add it to taskbar.
-  
-  <br>
-  
-  - Now that our launcher bat file is in startup you can either run `DiscordAvatarStartUp.bat` once manually or restart your pc.
 
 ## 💌 NOTES
 - Any Recommendation will be appreciated, don't forget `Pull requests` if you have any idea to improve this project . 👙🤺
