@@ -40,7 +40,7 @@ now to test the program run:
 
 - <p style="color:green;">DO NOT FORGET TO SET TOKEN AND TIME OUT IN `.env`<p>
 - Put some images in `images` directory.
-- right click on `Launcher.exe` and create a shortcut.
+- right click on `Launcher.exe` and create a shortcut and rename it to `Launcher.exe`
 - paste the shortcut in your start up directory => <br> `C:/Users/yourusername/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/`
 - run Launcher.exe
 
