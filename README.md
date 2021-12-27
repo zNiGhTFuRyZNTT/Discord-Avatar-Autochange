@@ -23,7 +23,7 @@
 - ``` pip install -r requirements.txt ```
 <br>
 <br>
-now to Set TOKEN and TIMEOUT in .env which Timeout is the time between each avatar change in <b style="color:green;">SECONDS</b>.
+now to Set TOKEN and INTERVAL in .env which INTERVAL is the time between each avatar change in <b style="color:green;">SECONDS</b>.
 
   PASTE AT LEAST 2 PICTURES IN ` images ` directory.
 <br>
@@ -38,7 +38,7 @@ now to test the program run:
 
 ### <p align="center" style=";font-family:Times New Roman"> from 🍑 import Deploy </p>
 
-- <p style="color:green;">DO NOT FORGET TO SET TOKEN AND TIME OUT IN `.env`<p>
+- <p style="color:green;">DO NOT FORGET TO SET TOKEN AND INTERVAL IN `.env`<p>
 - Put some images in `images` directory.
 - right click on `Launcher.exe` and create a shortcut and rename it to `Launcher.exe`
 - paste the shortcut in your start up directory => <br> `C:/Users/yourusername/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/`
