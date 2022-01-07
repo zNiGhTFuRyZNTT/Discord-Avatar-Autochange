@@ -1,12 +1,9 @@
 from dotenv import load_dotenv; load_dotenv()
-from pool import cc, toB64, chAvatar # grab our funcs outta the pool.
-import requests
-import base64
+from pool import cc, chAvatar # grab our funcs outta the pool.
 import time
-import json
 import os
 
-INTERVAL = int(os.getenv('INTERVAL')) if len(os.getenv('TOKEN')) > 0 else 300
+INTERVAL = int(os.getenv('INTERVAL')) if len(os.getenv('INTERVAL')) > 0 else 300
 TOKEN = os.getenv('TOKEN') if len(os.getenv('TOKEN')) > 0 else False
 
 def get_images():
