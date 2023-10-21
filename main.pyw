@@ -9,7 +9,7 @@ INTERVAL = int(os.getenv('INTERVAL', '300'))  # Use a default value of 300 if IN
 TOKEN = os.getenv('TOKEN')
 
 def get_images():
-    image_extensions = ("png", "jpg", "ico", "jpeg", "gif")
+    image_extensions = ("png", "jpg", "ico", "jpeg", "gif", "webp")
     images = [image for image in os.listdir("./images/") if image.lower().endswith(image_extensions)]
     return images
 
