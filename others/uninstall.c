@@ -34,7 +34,7 @@ int main() {
     // - -- --- < - > --- -- -
     int choice;
     Menu:
-    printf("Choose: \n1- Pause Erraticord until restart: \n2- Disable startup\n >> ");
+    printf("Choose: \n1- Pause Avatar Changer until restart: \n2- Disable startup\n >> ");
     if (fgets(temp, sizeof(temp), stdin) != NULL) {
         int test;
         if(sscanf(temp, "%d", &test) == 1){
